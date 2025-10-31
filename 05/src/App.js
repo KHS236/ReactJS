@@ -3,6 +3,7 @@ import './App.css';
 
 import Component_01 from './05조건부랜더링/01Component';
 import Component_02 from './05조건부랜더링/02Component';
+import Component_03 from './05조건부랜더링/03Component';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Component_02 isAuth={false} />
       <hr/>
       {/* &&연산자 */}
-
+      <Component_03 items={['aaa','bbb','ccc','ddd']}/> {/* item로 리스트 형태 데이터 전달 */}
 
     </div>
   );
