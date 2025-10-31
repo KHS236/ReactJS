@@ -20,7 +20,7 @@ function App() {
       <Component_02 isAuth={false} />
       <hr/>
       {/* &&연산자 */}
-      <Component_03 items={['aaa','bbb','ccc','ddd']}/> {/* item로 리스트 형태 데이터 전달 */}
+      <Component_03 items={['a','bbb','ccc','ddd']}/> {/* item로 리스트 형태 데이터 전달 */}
 
     </div>
   );

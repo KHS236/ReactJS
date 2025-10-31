@@ -11,7 +11,7 @@ const Component_03 = ({items})=>{
             {/* 변수 받아오기
                 items.length가 0을 초과할 경우 오른쪽을 실행하도록 &&연산 활용
             */}
-            {items.length> 0 && items.map((item,idx)=>{
+            {items.length>=2 && items.map((item,idx)=>{
                 return (
                     <li key={idx}>{item}</li>
                 )
